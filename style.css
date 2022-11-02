@@ -1,0 +1,47 @@
+body {
+    background-color: #eeeeee;
+}
+.logInForm {
+    background-color: #ffffff;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px
+
+}
+div {
+    width: 100%;
+}
+img {
+    width: 115px;
+    height: 115px;
+    border-radius: 20%;
+    margin: 12% 35% 7%;
+}
+img:first-child {
+    align-content: center;
+    width: 80%;
+    height: 60px;
+    padding: 0 10%;
+    margin: 0;
+    border-radius: 0%;
+}
+p.mandatory:after {
+    content: ' mandatory field!';
+    color: red;
+}
+p {
+    font-family: Courier;
+}
+input:last-child:hover {
+    background-color: red;
+}
+input:last-child {
+    margin: 10% 0 0 0;
+    background-color: #0e8ce5b5;
+    border: 0;
+    color: white;
+    padding: 2% 0;
+}
